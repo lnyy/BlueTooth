@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1804D0AB1CA24A4A00EA9A15 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804D0A91CA24A4A00EA9A15 /* SecondViewController.m */; };
+		1804D0AC1CA24A4A00EA9A15 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1804D0AA1CA24A4A00EA9A15 /* SecondViewController.xib */; };
+		1804D0B21CA24C1600EA9A15 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804D0AF1CA24C1600EA9A15 /* MBProgressHUD+MJ.m */; };
+		1804D0B31CA24C1600EA9A15 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1804D0B11CA24C1600EA9A15 /* MBProgressHUD.m */; };
 		18AAD0741C9FA97D00813CB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD0731C9FA97D00813CB3 /* main.m */; };
 		18AAD0771C9FA97D00813CB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD0761C9FA97D00813CB3 /* AppDelegate.m */; };
 		18AAD07A1C9FA97D00813CB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AAD0791C9FA97D00813CB3 /* ViewController.m */; };
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1804D0A81CA24A4A00EA9A15 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1804D0A91CA24A4A00EA9A15 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1804D0AA1CA24A4A00EA9A15 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		1804D0AE1CA24C1600EA9A15 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		1804D0AF1CA24C1600EA9A15 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		1804D0B01CA24C1600EA9A15 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1804D0B11CA24C1600EA9A15 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		18AAD06F1C9FA97C00813CB3 /* MinBleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinBleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AAD0731C9FA97D00813CB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18AAD0751C9FA97D00813CB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +89,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1804D0AD1CA24C1600EA9A15 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1804D0AE1CA24C1600EA9A15 /* MBProgressHUD+MJ.h */,
+				1804D0AF1CA24C1600EA9A15 /* MBProgressHUD+MJ.m */,
+				1804D0B01CA24C1600EA9A15 /* MBProgressHUD.h */,
+				1804D0B11CA24C1600EA9A15 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		18AAD0661C9FA97C00813CB3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +123,14 @@
 		18AAD0711C9FA97C00813CB3 /* MinBleDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1804D0AD1CA24C1600EA9A15 /* MBProgressHUD */,
 				18AAD0751C9FA97D00813CB3 /* AppDelegate.h */,
 				18AAD0761C9FA97D00813CB3 /* AppDelegate.m */,
 				18AAD0781C9FA97D00813CB3 /* ViewController.h */,
 				18AAD0791C9FA97D00813CB3 /* ViewController.m */,
+				1804D0A81CA24A4A00EA9A15 /* SecondViewController.h */,
+				1804D0A91CA24A4A00EA9A15 /* SecondViewController.m */,
+				1804D0AA1CA24A4A00EA9A15 /* SecondViewController.xib */,
 				18AAD07B1C9FA97D00813CB3 /* Main.storyboard */,
 				18AAD07E1C9FA97D00813CB3 /* Assets.xcassets */,
 				18AAD0801C9FA97D00813CB3 /* LaunchScreen.storyboard */,
@@ -207,6 +233,7 @@
 				TargetAttributes = {
 					18AAD06E1C9FA97C00813CB3 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UDSUNZE545;
 					};
 					18AAD0871C9FA97E00813CB3 = {
 						CreatedOnToolsVersion = 7.2;
@@ -243,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1804D0AC1CA24A4A00EA9A15 /* SecondViewController.xib in Resources */,
 				18AAD0821C9FA97D00813CB3 /* LaunchScreen.storyboard in Resources */,
 				18AAD07F1C9FA97D00813CB3 /* Assets.xcassets in Resources */,
 				18AAD07D1C9FA97D00813CB3 /* Main.storyboard in Resources */,
@@ -270,6 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1804D0AB1CA24A4A00EA9A15 /* SecondViewController.m in Sources */,
+				1804D0B31CA24C1600EA9A15 /* MBProgressHUD.m in Sources */,
+				1804D0B21CA24C1600EA9A15 /* MBProgressHUD+MJ.m in Sources */,
 				18AAD07A1C9FA97D00813CB3 /* ViewController.m in Sources */,
 				18AAD0771C9FA97D00813CB3 /* AppDelegate.m in Sources */,
 				18AAD0741C9FA97D00813CB3 /* main.m in Sources */,
@@ -413,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MinBleDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.meluo.MinBleDemo;
@@ -424,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MinBleDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.meluo.MinBleDemo;
@@ -498,6 +531,7 @@
 				18AAD09E1C9FA97E00813CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18AAD09F1C9FA97E00813CB3 /* Build configuration list for PBXNativeTarget "MinBleDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +540,7 @@
 				18AAD0A11C9FA97E00813CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18AAD0A21C9FA97E00813CB3 /* Build configuration list for PBXNativeTarget "MinBleDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +549,7 @@
 				18AAD0A41C9FA97E00813CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
